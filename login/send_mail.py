@@ -6,7 +6,7 @@ os.environ['DJANGO_SETTINGS_MODULE'] = 'mysite.settings'
 
 if __name__ == '__main__':
 
-    subject, from_email, to = '邮件subject', '2438529228@qq.com', '2438529228@qq.com'
+    subject, from_email, to = '邮件subject', '2428@qq.com', '2428@qq.com'
     text_content = '欢迎访问www.baidu.com！'
     html_content = '<p>欢迎访问<a href="http://www.baidu.com" target=blank>www.baidu.com</a>,专注于技术,热爱生活！</p>'
     msg = EmailMultiAlternatives(subject, text_content, from_email, [to])
